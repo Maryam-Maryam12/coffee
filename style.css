@@ -1,0 +1,206 @@
+ body {
+      background-color: #fff; 
+      font-family: 'League Spartan', sans-serif;
+    }
+
+    /* Navbar styles */
+    .navbar {
+      background-color: #CDB8A5;
+    }
+
+    /* Home section styles */
+    #home {
+      background-color: #473E38;
+      background-image: url("images.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #fff;
+      text-align: center;
+      padding: 100px 0;
+      height: 100vh;
+       display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #home h2 {
+      font-size: 2.5em;
+      color: black;
+      font-weight: 700;
+      background-color:#CDB8A5;
+      width: 70%;
+      border-radius: 30px;
+      padding: 10px;
+    }
+    h2 span{
+        color:#c2542d;
+
+    }
+    #shop-now-btn {
+      background-color: #c2542d;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    #shop-now-btn:hover {
+      background-color: #a03c1e;
+    }
+
+
+    /*about*/
+    #about {
+  background-color: #473E38;
+  color: #fff;
+  padding: 50px 0;
+}
+
+#about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#about-image {
+  flex: 0 0 48%;
+  margin-bottom: 20px; 
+}
+
+#about-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#about-content {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 0 0 48%;
+}
+
+#about-content h2 {
+    font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+#about-content p{
+    font-size: 20px;
+}
+/* Bootstrap Overrides */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*menu*/
+#menu {
+      background-color: #6f4e37;
+      width: 100%;
+      padding: 50px 0;
+    }
+
+    .card{
+        margin:0px 10px ;
+    }
+    .card h5 {
+      color: #c2542d; 
+      font-weight: 700;
+    }
+    .card h4 {
+    color:  #6f4e37;
+    }
+
+
+
+#contact-us {
+      background-color: #473E38;
+      color: #fff;
+      padding: 50px 0;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #contact-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    #contact-form .form-group {
+      margin-bottom: 20px;
+    }
+
+    #contact-form label {
+      color: #CDB8A5;
+    }
+
+    #contact-form input,
+    #contact-form textarea {
+      background-color: #CDB8A5;
+      color: #473E38;
+      border: none;
+    }
+
+    #contact-form input::placeholder,
+    #contact-form textarea::placeholder {
+      color: #473E38;
+    }
+
+    #contact-form button {
+      background-color: #c2542d;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #contact-form button:hover {
+      background-color: #a03c1e;
+    }
+
+
+
+
+
+@media (max-width: 768px) {
+  #about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #about-image,
+  #about-content {
+    flex: 0 0 100%;
+  }
+}
+
+
+
+ /* Footer styles */
+    #footer {
+      background-color:#CDB8A5;
+      color: black;
+      padding: 15px 0;
+    }
+
+    #footer .social-icons a {
+      color: black;
+    font-size: 1.5em;
+    }
+    #footer p {
+      margin-bottom: 0;
+      font-weight: 700;
+    }
